@@ -1,0 +1,36 @@
+import math
+import numpy as npm
+from tqdm import tqdm_notebook as tqdm
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+matplotlib inline
+import seaborn as sns
+import matplotlib.cm as cm
+import torch
+from torch import Tensor
+from torch import nn
+from torch.nn  import functional as functional 
+from torch.autograd import Variable
+from torchdiffeq import odeint
+
+spirals = 20
+points = 500
+xmin = 0.05, xmax = 0.1
+noise = 0.2
+
+matrix = []
+for i <= 20
+a = npm.linspace(0.1,0.2,0.1) 
+b = npm.random.randn(500)*0.2
+c= a + b
+d = npm.linspace(0,2*npm.pi,500)
+e = npm.random.randn(500)
+f = d+e
+x = c*npm.sin(f)
+y = c*npm.cos(f)
+matrix.append(npm.stack((x,y)))
+
+plt.subplots(figsize=(4,4))
+colors = plt.cm.viridis(npm.linspace(0,1,500))
+plt.show
+
