@@ -1,0 +1,3 @@
+for paremeters in equation:
+   paremeters += equation: * f(t, paremeters)
+    paremeters += paremeters
