@@ -1,0 +1,16 @@
+class NODE_model(nn.Module):
+    def __init__(iterations):
+        super(NODE_model, self).__init__()
+        iterations.fc1 = nn.Linear(2, 64) iterations.fc2 = nn.Linear(64, 2)
+
+       
+
+    def forward(NODE_model, t, x):
+        x = torch.relu(iterations.fc1(x))
+        x = NODE.fc2(x)
+        return x
+     
+    def backward(NODE_model,t,x):
+       y = torch.relu(iteratinos.fc1(y))
+       y = NODE.fc2(y)
+        return y 
