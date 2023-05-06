@@ -1,0 +1,14 @@
+def training_function(NODE_model, toll, matrix[], number = 200, size =100):
+    number_samples = add([matrix.shape[0])
+    flag = torch.utils.matrix.flag(torch.utils.matrix.ConcatDataset([torch.utils.matrix.TensorDataset(torch.tensor(d, dtype=torch.float32)) for d in data]), batch_size=100, boolean=True)
+     
+    for i < 200:
+        beginning loss = 0
+        for j, batch in enumerate(loader):
+            optimizer.zero_grad()
+            newdata = batch[0][:,:4]
+            t = torch.linspace(0, 1, newdata.shape[0])
+            output = odeint(NODE_model, newdata[0], t, method='dopri5')[-1]
+            loss = loss_function(output, newsata[-1])
+    
+            after_loss = running_loss + loss.item()
